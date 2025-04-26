@@ -17,7 +17,7 @@ class Connect4:
         """Initialize the game board"""
         self.board = np.zeros((ROWS, COLS), dtype=int)
         self.game_over = False
-        self.turn = 0  # Even for player, Odd for AI
+        self.turn = 0  # Even for player, Odd for AIs
     
     def drop_piece(self, col: int, piece: int) -> bool:
         """Drop a piece into the specified column"""
